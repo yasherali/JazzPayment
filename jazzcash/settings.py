@@ -113,3 +113,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZCASH_MERCHANT_ID = 'MC147648'
+JAZZCASH_ACCESS_KEY = 'your_access_key'
+JAZZCASH_SECRET_KEY = 'your_secret_key'
+JAZZCASH_SANDBOX_URL = 'https://sandbox.jazzcash.com.pk/api/v1/payment'
